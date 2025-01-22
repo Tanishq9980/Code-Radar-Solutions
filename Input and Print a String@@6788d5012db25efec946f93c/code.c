@@ -3,7 +3,7 @@
 
 
 int main() {
-    char loki[];
+    char loki[30];
     scanf("%s",&loki);
     printf("You entered: %s",loki);
     return 0;
