@@ -8,8 +8,8 @@ int main() {
     scanf("%s",&Name);
     scanf("%d",&Age);
     scanf("%s",&Hobby);
-    printf("Name: %c\n",Name);
+    printf("Name: %s\n",Name);
     printf("Age: %d\n",Age);
-    printf("Hobby: %c\n",Hobby);
+    printf("Hobby: %s\n",Hobby);
     return 0;
 }
