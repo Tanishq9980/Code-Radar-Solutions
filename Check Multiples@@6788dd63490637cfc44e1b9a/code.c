@@ -6,6 +6,6 @@ int main() {
     if(x%y)
     printf("Yes");
     else
-    printf("No";
+    printf("No");
     return 0;
 }
