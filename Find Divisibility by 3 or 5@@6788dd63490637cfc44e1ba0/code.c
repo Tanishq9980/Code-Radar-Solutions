@@ -11,6 +11,6 @@ int main() {
     else if(x%15==0)
     printf("Divisible by Both");
     else
-    printf("Not Divisible";)
+    printf("Not Divisible");
     return 0;
 }
