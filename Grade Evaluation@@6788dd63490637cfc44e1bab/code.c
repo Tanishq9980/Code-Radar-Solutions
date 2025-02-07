@@ -16,7 +16,7 @@ int main() {
         break;
 
         case C:
-        printf("Average")
+        printf("Average");
         break;
 
         case D:
