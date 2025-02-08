@@ -4,7 +4,7 @@
 
 int main() {
     int feur;
-    int rep;
+    int rep=0;
     scanf("%i",&feur);
     while(!(feur&1))
     {feur>>=1;
