@@ -8,6 +8,6 @@ int main() {
     {
         x<<=1;y++
     }
-    printf("%d",y)
+    printf("%d",y);
     return 0;
 }
