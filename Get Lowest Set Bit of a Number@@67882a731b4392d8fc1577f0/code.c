@@ -3,8 +3,12 @@
 
 
 int main() {
-    int x;
-    scanf("%d",&x);
-    printf("%d",x & (1<<x));
+    int feur;
+    int rep;
+    scanf("%i",&feur);
+    while(!(feur&1))
+    {feur>>=1;
+    ++rep;}
+    printf("%i",rep);
     return 0;
 }
