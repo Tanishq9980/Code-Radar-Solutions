@@ -2,7 +2,12 @@
 
 int main() {
     int x;
+    int y=0;
     scanf("%d",&x);
-    printf("%d",x & (1>>31));
+    while(!(x&1))
+    {
+        x<<=1;y++
+    }
+    printf("%d",y)
     return 0;
 }
