@@ -1,4 +1,4 @@
-int bubblesort(int arr[],int n)
+int bubbleSort(int arr[],int n)
 {
     for(int i=0;i<n-1;i++)
     {
@@ -14,7 +14,7 @@ int bubblesort(int arr[],int n)
     }
     return 0;
 }
-int printarray(int arr[],int n)
+int printArray(int arr[],int n)
 {
  for(int i=0;i<n;i++)
     {
