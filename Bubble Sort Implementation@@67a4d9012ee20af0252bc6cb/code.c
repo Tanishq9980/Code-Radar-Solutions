@@ -15,11 +15,12 @@ void bubblesort(int arr[],int n)
     
 }
 void printarray(int arr[],int n)
+{
  for(int i=0;i<n;i++)
     {
         printf("%d",arr[i]);
     }
-    
+}
 int main()
 {
     int n;
