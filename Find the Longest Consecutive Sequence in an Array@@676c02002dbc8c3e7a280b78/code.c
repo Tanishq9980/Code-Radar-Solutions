@@ -10,7 +10,7 @@ int main()
         scanf("%d",&a[i]);
     }
      int count=1;
-     int count2=0;
+     int count2=2;
     if(N==1){
         printf("%d",count);
         return 1;
