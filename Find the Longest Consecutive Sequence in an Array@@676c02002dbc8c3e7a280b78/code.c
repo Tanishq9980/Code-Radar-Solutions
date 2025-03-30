@@ -9,8 +9,7 @@ int main()
     {
         scanf("%d",&a[i]);
     }
-     int count=1;
-     int count2=1;
+     
     if(N==1){
         printf("%d",count);
         return 1;
@@ -26,19 +25,17 @@ int main()
           a[j+1]=temp;
         }
     }
+    int count;
    
 for(int i=0;i<N-1;i++)
 
     if(a[i+1]-a[i]==1)
     {
 count++;
-count2=count;
+
     }
-    else
-    {
-        count=1;
-    }
-    printf("%d",count2);
+   
+    printf("%d",count);
 
     return 0;
 }}
