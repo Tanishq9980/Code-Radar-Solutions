@@ -15,5 +15,5 @@ int main()
         flag=a[i];
     }
     printf("%d",flag);
-   return 0;
+   return -1;
 }
