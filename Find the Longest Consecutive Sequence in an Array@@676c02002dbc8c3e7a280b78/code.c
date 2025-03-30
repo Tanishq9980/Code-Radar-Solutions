@@ -21,6 +21,9 @@ int main()
         }
     }
     int count=1;
+    if(N==1){
+        printf("%d",count);
+    }
 for(int i=0;i<N-1;i++)
 
     if(a[i+1]-a[i]==1)
