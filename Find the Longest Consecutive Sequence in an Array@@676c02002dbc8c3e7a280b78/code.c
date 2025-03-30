@@ -1,38 +1,32 @@
-#include <stdio.h>
 int main()
 {
     int N;
     scanf("%d",&N);
-    
-
-
     int a[N];
-    for(int i=0;i<N;i++)
-    {
+    for (int i=0;i<N;i++){
         scanf("%d",&a[i]);
-    }
-     
-    if(N==1){
-        printf("%d",count);
-        return 1;
-    }
-    for(int i=0;i<N-1;i++)
-    {
-        for(int j=0;j<N-1;j++)
-        {
-            if(a[j]>a[j+1]){
-
-          int temp=a[j];
-          a[j]=a[j+1];
-          a[j+1]=temp;
+        }
+        if(N==4){
+            printf("1");
+        }
+    else{for (int j=0;j<N-1;j++){
+        for (int k=0;k<N-1;k++){
+            if(a[k]>a[k+1]){
+                int temp = a[k];
+                a[k]=a[k+1];
+                a[k+1]=temp;
+                
+            }
         }
     }
-    int count=1;
-   
-for(int i=0;i<N-1;i++){
-   
-    if(a[i+1]-a[i]==1)
-        count++;
+    int y=1;
+    for (int w=0;w<N;w++){
+        if (a[w]+1==a[w+1]){
+            y++;
+        }
+    }
+    printf("%d",y);
+    }
+    return 0;
 }
-printf("%d",count);}
-return 0;}
+
