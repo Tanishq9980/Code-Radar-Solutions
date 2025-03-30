@@ -14,7 +14,7 @@ int bubblesort(int arr[],int N)
     }
     return 0;
 }
-printarray(int arr[],int N)
+int printarray(int arr[],int N)
 {
 for(int i=0;i<N;i++)
 {
