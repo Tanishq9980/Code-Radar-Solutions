@@ -9,6 +9,11 @@ int main()
     {
         scanf("%d",&a[i]);
     }
+     int count=1;
+    if(N==1){
+        printf("%d",count);
+        return 1;
+    }
     for(int i=0;i<N-1;i++)
     {
         for(int j=0;j<N-1;j++)
@@ -20,11 +25,7 @@ int main()
           a[j+1]=temp;
         }
     }
-    int count=1;
-    if(N==1){
-        printf("%d",count);
-        return 1;
-    }
+   
 for(int i=0;i<N-1;i++)
 
     if(a[i+1]-a[i]==1)
