@@ -12,8 +12,8 @@ int main()
     for(int i=0;i<N;i++)
     {
         if(a[i-1]<a[i] && a[i]>a[i+1])
-        flag=1;
+        flag=a[i];
     }
-    printf("%d",a[i]);
+    printf("%d",flag);
    return 0;
 }
