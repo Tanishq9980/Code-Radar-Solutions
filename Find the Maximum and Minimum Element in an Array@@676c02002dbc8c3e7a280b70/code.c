@@ -16,12 +16,9 @@ int bubblesort(int arr[],int N)
 }
 int printarray(int arr[],int N)
 {
-for(int i=0;i<N;i++)
-{
-    return arr[i];
+    
     printf("%d %d",arr[0],arr[n-1]);
 
-}
 return 0;
 }
 #include <stdio.h>
