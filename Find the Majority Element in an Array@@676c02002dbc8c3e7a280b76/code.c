@@ -1,32 +1,27 @@
 #include <stdio.h>
 int main()
-int N;
-scanf("%d",&N);
-
-int a[N];
-for(int i=0;i<N;i++)
 {
-    scanf("%d",arr[i]);
-}
-int flag=1;
-
-for(int i=0;i<N;i++)
-{
-    int sum=0;
-    for(int j=0;j<N;j++){
-    if(a[i]==a[j]){
-        sum++;
+    int N;
+    scanf("%d",&N);
+    int a[N];
+    for (int i=0;i<N;i++){
+        scanf("%d",&a[i]);
     }
-
-if(sum>N/2){
-printf("%d",a[i]);
-flag=0;
-break;
-}
-}
-}
+    int flag=1;
+    for (int j=0;j<N;j++){
+        int sum=0;
+        for (int k=j;k<N;k++){
+            if (a[j] == a[k]){
+                sum++;
+            }
+        }
+        if(sum>N/2){
+            printf("%d",a[j]);
+            flag=0;
+            break;
+        }
+    }
 if (flag){
     printf("-1");
-
-    return 0;
+}
 }
