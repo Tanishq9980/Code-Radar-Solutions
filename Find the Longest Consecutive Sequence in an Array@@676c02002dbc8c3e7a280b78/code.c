@@ -3,6 +3,7 @@ int main()
 {
     int N;
     scanf("%d",&N);
+     int count=1;
 
     int a[N];
     for(int i=0;i<N;i++)
@@ -25,7 +26,7 @@ int main()
           a[j+1]=temp;
         }
     }
-    int count=1;
+   
    
 for(int i=0;i<N-1;i++){
 
