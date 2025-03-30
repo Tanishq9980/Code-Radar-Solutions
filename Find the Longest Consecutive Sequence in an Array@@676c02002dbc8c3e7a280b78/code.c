@@ -29,7 +29,7 @@ int main()
    
 for(int i=0;i<N-1;i++)
 
-    if(a[i+1]-a[i]==1 || a[i+1]-a[i]==-1)
+    if(a[i+1]-a[i]==1)
     {
 count++;
 count2=count;
