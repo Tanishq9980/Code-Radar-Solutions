@@ -4,11 +4,11 @@ int bubblesort(int arr[],int N)
     {
         for(int j=0;j<N-1-i;j++)
         {
-            if(a[i]>a[i+1])
+            if(arr[i]>arr[i+1])
             {
-                int temp=a[i];
-                a[i]=a[i+1];
-                a[i+1]=temp;
+                int temp=arr[i];
+                arr[i]=arr[i+1];
+                arr[i+1]=temp;
             }
         }
     }
