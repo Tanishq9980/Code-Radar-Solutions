@@ -23,6 +23,7 @@ int main()
     int count=1;
     if(N==1){
         printf("%d",count);
+        return 1;
     }
 for(int i=0;i<N-1;i++)
 
