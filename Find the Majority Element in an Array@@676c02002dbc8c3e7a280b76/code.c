@@ -19,7 +19,7 @@ for(int i=0;i<N;i++)
     }
 
 if(sum>N/2){
-printf("%d",a[j]);
+printf("%d",a[i]);
 flag=0;
 break;
 }
@@ -27,4 +27,6 @@ break;
 }
 if (flag){
     printf("-1");
+
+    return 0;
 }
