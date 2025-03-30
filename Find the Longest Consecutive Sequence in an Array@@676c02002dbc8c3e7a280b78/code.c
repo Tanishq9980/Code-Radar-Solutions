@@ -27,15 +27,12 @@ int main()
     }
     int count;
    
-for(int i=0;i<N-1;i++)
+for(int i=0;i<N-1;i++){
 
     if(a[i+1]-a[i]==1)
-    {
-count++;
-
-    }
+        {count++;}
    
-    printf("%d",count);
-
+        printf("%d",count);
+ 
     return 0;
 }}
