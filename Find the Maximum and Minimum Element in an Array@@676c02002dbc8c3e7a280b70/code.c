@@ -12,6 +12,7 @@ int bubblesort(int arr[],int N)
             }
         }
     }
+    return 0;
 }
 printarray(int arr[],int N)
 {
@@ -19,10 +20,10 @@ for(int i=0;i<N;i++)
 {
     return arr[i];
     printf("%d %d",arr[0],arr[n-1]);
-
+return 0;
 }
 }
-
+#include <stdio.h>
 int main()
 {
     int N;
@@ -35,5 +36,5 @@ int main()
     bubblesort(arr,N)
     printarray(arr,N)
 
-
+return 0;
 }
