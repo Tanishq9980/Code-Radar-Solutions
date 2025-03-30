@@ -18,7 +18,9 @@ for(int i=0;i<N;i++)
     {
         printf("%d",i);
     }
-    else return -1;
+   
 }
-return 0;
+else 
+return -1;
+
 }
