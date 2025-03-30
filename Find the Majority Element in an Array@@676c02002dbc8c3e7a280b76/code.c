@@ -13,7 +13,7 @@ int flag=1;
 for(int i=0;i<N;i++)
 {
     int sum=0;
-    for(int j=0;j<N-1;j++){
+    for(int j=0;j<N;j++){
     if(a[i]==a[j]){
         sum++;
     }
