@@ -17,11 +17,12 @@ for(int i=0;i<N;i++)
     if(a[i]==a[j]){
         sum++;
     }
-}
+
 if(sum>N/2){
 printf("%d",a[j]);
 flag=0;
 break;
+}
 }
 }
 if (flag){
