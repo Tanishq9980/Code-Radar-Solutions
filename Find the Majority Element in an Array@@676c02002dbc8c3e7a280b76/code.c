@@ -18,7 +18,7 @@ for(int i=0;i<n;i++)
         sum++;
     }
 }
-if(sum>N/2){
+if(sum>n/2){
 printf("%d",a[j]);
 flag=0;
 break;
