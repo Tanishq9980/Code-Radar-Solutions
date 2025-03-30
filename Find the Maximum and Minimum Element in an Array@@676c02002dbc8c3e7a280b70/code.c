@@ -10,7 +10,7 @@ int main()
     }
     for(int i=0;i<N-1;i++)
     {
-        for(int j=0;j<N-1-i;j++)
+        for(int j=0;j<N-1;j++)
         {
             if(arr[i]>arr[i+1])
             {
