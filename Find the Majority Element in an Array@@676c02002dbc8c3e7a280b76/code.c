@@ -8,7 +8,7 @@ for(int i=0;i<N;i++)
 {
     scanf("%d",arr[i]);
 }
-int flag=0;
+int flag=1;
 
 for(int i=0;i<N;i++)
 {
