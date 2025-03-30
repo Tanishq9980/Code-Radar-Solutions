@@ -1,3 +1,4 @@
+#include <stdio.h>
 int main()
 {
     int N,K;
@@ -15,8 +16,7 @@ int main()
         a[p] = a[N+p];
     }
     for (int w=0;w<N;w++){
-        printf("%d ",a[w]);
+        printf("%d\n",a[w]);
     }
     return 0;
 }
-
