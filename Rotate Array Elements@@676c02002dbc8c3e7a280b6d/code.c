@@ -13,7 +13,7 @@ void rotateright(int a[],int N,int K)
        }
     for(int i=0;i<K;i++)
        {
-        a[i]=a[temp];
+        a[i]=temp[i];
        }
 }
 int main()
