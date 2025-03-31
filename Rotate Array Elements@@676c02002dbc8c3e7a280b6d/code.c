@@ -7,11 +7,11 @@ void rotateright(int a[],int N,int K)
        {
         a[temp]=a[N-K+i];
        }
-    for(int i=N-1;i>k;i++)
+    for(int i=N-1;i>K;i++)
        {
-        a[i]=a[i-k];
+        a[i]=a[i-K];
        }
-    for(int i=0;i<k;i++)
+    for(int i=0;i<K;i++)
        {
         a[i]=a[temp];
        }
