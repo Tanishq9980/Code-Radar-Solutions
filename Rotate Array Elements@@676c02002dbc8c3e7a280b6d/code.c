@@ -1,4 +1,21 @@
 #include <stdio.h>
+void rotateright(int a[],int N,int K)
+{
+    K=K%N;
+    int temp[K];
+    for(int i=0;i<K;i++)
+       {
+        a[temp]=a[N-K+i];
+       }
+    for(int i=N-1;i>k;i++)
+       {
+        a[i]=a[i-k];
+       }
+    for(int i=0;i<k;i++)
+       {
+        a[i]=a[temp];
+       }
+}
 int main()
 {
     int N,K;
@@ -8,15 +25,11 @@ int main()
         scanf("%d",&a[i]);
     }
     scanf("%d",&K);
-    a[N]=a[N+K];
-    for (int j=N-1; j>=0; j--){
-        a[j+K] =a[j];
-    }
-    for (int p=0;p<K;p++){
-        a[p] = a[N+p];
-    }
-    for (int w=0;w<N;w++){
-        printf("%d\n",a[w]);
-    }
+     
+     rotateright(a,N,K);
+for(int i=0;i<N;i++)
+{
+     printf("%d",a[i]);
+}
     return 0;
 }
