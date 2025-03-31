@@ -5,7 +5,7 @@ void rotateright(int a[],int N,int K)
     int temp[K];
     for(int i=0;i<K;i++)
        {
-        a[temp]=a[N-K+i];
+        temp[i]=a[N-K+i];
        }
     for(int i=N-1;i>K;i++)
        {
