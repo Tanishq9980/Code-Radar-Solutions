@@ -40,7 +40,7 @@ int main()
 
     for(int i=0;i<N;i++)
     {
-        printf("%d",a[i]);
+        printf("%d\n",a[i]);
     }
     return 0;
 }
