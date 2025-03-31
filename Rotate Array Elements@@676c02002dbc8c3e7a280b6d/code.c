@@ -1,3 +1,4 @@
+#include <stdio.h>
 void rotateright(int a[],int N,int K){
     K=K%N;
 
